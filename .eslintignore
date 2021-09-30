@@ -1,0 +1,7 @@
+*.sh
+node_modules
+.vscode/
+.vscode
+dist
+/docs
+.husky
