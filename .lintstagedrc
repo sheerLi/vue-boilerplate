@@ -1,4 +1,4 @@
 {
-  "*.{js,ts,vue}": ["npm run lint"],
-  "*.{html,vue,css,scss,sass,less}": ["stylelint --fix"]
+  "*.{js,ts,vue}": "eslint",
+  "*.{css,scss,vue}": "stylelint"
 }

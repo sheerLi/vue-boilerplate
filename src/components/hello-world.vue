@@ -33,7 +33,7 @@ const count = ref(0)
   </p>
 </template>
 
-<style scoped>
+<style lang="scss" scoped>
 a {
   color: #42b983;
 }
@@ -44,9 +44,9 @@ label {
 }
 
 code {
-  background-color: #eee;
   padding: 2px 4px;
-  border-radius: 4px;
   color: #304455;
+  background-color: #eee;
+  border-radius: 4px;
 }
 </style>
