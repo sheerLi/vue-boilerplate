@@ -3,6 +3,7 @@ lockfileVersion: 5.4
 specifiers:
   '@commitlint/cli': ^13.2.0
   '@commitlint/config-conventional': ^13.2.0
+  '@types/node': ^18.0.0
   '@typescript-eslint/eslint-plugin': ^4.32.0
   '@typescript-eslint/parser': ^4.32.0
   '@vitejs/plugin-vue': ^1.6.1
@@ -35,6 +36,7 @@ dependencies:
 devDependencies:
   '@commitlint/cli': registry.npmmirror.com/@commitlint/cli/13.2.0_typescript@4.4.3
   '@commitlint/config-conventional': registry.npmmirror.com/@commitlint/config-conventional/13.2.0
+  '@types/node': registry.npmmirror.com/@types/node/18.0.6
   '@typescript-eslint/eslint-plugin': registry.npmmirror.com/@typescript-eslint/eslint-plugin/4.32.0_d2wpesk2ahuknd72tfecgchi5q
   '@typescript-eslint/parser': registry.npmmirror.com/@typescript-eslint/parser/4.32.0_sek7ybhoe3wua6y4z6v7featku
   '@vitejs/plugin-vue': registry.nlark.com/@vitejs/plugin-vue/1.8.1_5tsiqx4pdlt5fzzqn5hm42sez4
@@ -3745,6 +3747,12 @@ packages:
     resolution: {integrity: sha512-jhuKLIRrhvCPLqwPcx6INqmKeiA5EWrsCOPhrlFSrbrmU4ZMPjj5Ul/oLCMDO98XRUIwVm78xICz4EPCektzeQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@types/minimist/-/minimist-1.2.2.tgz}
     name: '@types/minimist'
     version: 1.2.2
+    dev: true
+
+  registry.npmmirror.com/@types/node/18.0.6:
+    resolution: {integrity: sha512-/xUq6H2aQm261exT6iZTMifUySEt4GR5KX8eYyY+C4MSNPqSh9oNIP7tz2GLKTlFaiBbgZNxffoR3CVRG+cljw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@types/node/-/node-18.0.6.tgz}
+    name: '@types/node'
+    version: 18.0.6
     dev: true
 
   registry.npmmirror.com/@types/normalize-package-data/2.4.1:
