@@ -29,24 +29,17 @@ const count = ref(0)
   <button type="button" @click="count++">count is: {{ count }}</button>
   <p>
     Edit
-    <code>components/HelloWorld.vue</code> to test hot module replacement.
+    <code
+      class="px-[4px] py-[2px] rounded-[4px] bg-[#eee] text-[14px] text-[#304455]"
+    >
+      components/HelloWorld.vue
+    </code>
+    to test hot module replacement.
   </p>
 </template>
 
 <style lang="scss" scoped>
 a {
   color: #42b983;
-}
-
-label {
-  margin: 0 0.5em;
-  font-weight: bold;
-}
-
-code {
-  padding: 2px 4px;
-  color: #304455;
-  background-color: #eee;
-  border-radius: 4px;
 }
 </style>

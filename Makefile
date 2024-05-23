@@ -1,5 +1,5 @@
-PRODUCT_IMAGE = vue-boilerplate:latest
-STAGING_IMAGE = vue-boilerplate-staging:latest
+PRODUCT_IMAGE = vue3-project-template:latest
+STAGING_IMAGE = vue3-project-template-staging:latest
 
 
 staging-image:
