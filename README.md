@@ -1,17 +1,26 @@
-# Vue 3 + Typescript + Vite 项目模板
+# Vue3 项目工程模板
 
-这是一个使用 Vue3 + ts + vite 搭建的项目模板，旨在利用vue生态中的新技术寻求项目工程的最佳实践
+## 已包含特性
+### 语法
+- 支持 TypeScript
+- 支持 tailwindcss
+- 支持 sass/scss
 
-## 特性
-- 支持 ES6+ 或 TypeScript 编写源码，编译生成生产代码
-- 集成代码风格校验 (eslint)
-- 集成 git commit 校验（lint-staged）
-- 集成代码格式化（prettier)
-- 集成新一代的 node 包管理工具 pnpm
+### 构建
+- 新一代的 node 包管理工具 pnpm (.nvmrc 中 node 版本锁定在了 18)
+- 集成 Vite
+- 集成代码风格校验和格式化 (eslint + prettier + stylelint)
+- 集成代码提交自动校验工具 husky 
+- 集成 Docker，区分测试环境和生产环境
+- 集成 nginx 配置文件
 
+### Vue 相关
+- 集成 vue-router
+- 集成 pinia
+- 集成 ant-design-vue （借助 unplugin-vue-components 实现自动导入）
 
-## 相关技术文档
-- [pnpm](https://pnpm.io/zh/motivation)
-- [vite](https://cn.vitejs.dev/)
-- [vue3](https://v3.cn.vuejs.org/)
-- [TypeScript](https://www.typescriptlang.org/)
+### 请求库
+- 集成 axios
+
+### 其他
+- .vscode 配置文件，保存代码会自动格式化

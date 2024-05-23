@@ -4,3 +4,4 @@ dist
 public
 components.d.ts
 index.html
+*.md
